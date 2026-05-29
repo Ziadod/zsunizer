@@ -8,13 +8,13 @@ I originally created this tool as a fun way to prank my friends into thinking I 
 ---
 
 ### ⚠️ Disclaimer
-**This tool is created strictly for educational purposes, offline testing, and experimental replay editing.** 
-It is **NOT** meant to be used for cheating, submitting fraudulent scores on official osu! servers (Bancho), or ruining the competitive integrity of the game. Please respect the game's rules. You are solely responsible for how you use this software.
+**This tool is created strictly for educational purposes, offline testing, and experimental replay editing.** It is **NOT** meant to be used for cheating, submitting fraudulent scores on official osu! servers (Bancho), or ruining the competitive integrity of the game. Please respect the game's rules. You are solely responsible for how you use this software.
 
 ---
 
 ### 🛠️ Features
-* **One-Click Humanizer:** Adjust the "Humanize Amount" slider to automatically add natural wrist-sway, edge-hits, and cursor jitter throughout the entire replay.
+* **One-Click Humanizer:** Adjust the 4 independent Humanize sliders (Sloppy Aim, Hand Shake, Idle Wandering, and Lazy Tracking) to automatically add natural wrist-sway, slider-cheesing, and cursor jitter throughout the entire replay.
+* **Smart Beatmap Sync:** Optionally upload the `.osu` or `.osz` file so the app knows exactly when to apply slider logic vs jump logic!
 * **Mod Editor:** Toggle active gameplay mods (EZ, HR, DT, HD, etc.) exactly like the in-game interface.
 * **Name Changer:** Easily overwrite the player name stored inside the replay file.
 
@@ -28,10 +28,11 @@ If you want to use this tool to its full potential (like I did for the prank!), 
 2. Let the Auto-player finish the map with a perfect score.
 3. Save the replay locally by pressing `F2` at the results screen.
 4. Open **zsu!nizer** and load that `.osr` file.
-5. Change the "Player Name" to your username.
-6. In the Mod section, **turn off the Auto (AT) mod** and replace it with whatever you want (like Relax (RX), Hidden (HD), or nothing at all!).
-7. Set your "Humanize Amount" (around 3.0 to 5.0 usually looks best).
-8. Click **Convert & Save** and drag the new file back into osu! to watch your "gameplay"!
+5. *(Optional but recommended)* Load the beatmap (`.osu` or `.osz`) so the app can perfectly sync the slider logic.
+6. Change the "Player Name" to your username.
+7. In the Mod section, **turn off the Auto (AT) mod** and replace it with whatever you want (like Relax (RX), Hidden (HD), or nothing at all!).
+8. Adjust your 4 "Humanize" sliders (or just leave them at their defaults).
+9. Click **Convert & Save** and drag the new file back into osu! to watch your "gameplay"!
 
 ---
 
